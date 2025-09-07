@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f9f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: green;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#reports {
+    margin-top: 20px;
+}
+
+.report-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #fff;
+}@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+

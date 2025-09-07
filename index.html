@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Community Mangrove Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>🌱 Community Mangrove Watch</h1>
+
+  <form id="reportForm">
+    <label>Your Name:</label>
+    <input type="text" id="name" required><br>
+
+    <label>Email:</label>
+    <input type="email" id="email"><br>
+
+    <label>Incident Type:</label>
+    <select id="type" required>
+      <option value="cutting">Mangrove Cutting</option>
+      <option value="dumping">Dumping Waste</option>
+      <option value="other">Other</option>
+    </select><br>
+
+    <label>Description:</label>
+    <textarea id="description"></textarea><br>
+
+    <label>Location:</label>
+    <input type="text" id="lat" placeholder="Latitude" required>
+    <input type="text" id="lon" placeholder="Longitude" required><br>
+
+    <label>Upload Photo:</label>
+    <input type="file" id="photo" accept="image/*"><br><br>
+
+    <button type="submit">📤 Submit Report</button>
+  </form>
+
+  <h2>📋 Reported Incidents</h2>
+  <div id="reports"></div>
+
+  <h2>🎖️ Your Gamification</h2>
+  <div id="gamification">
+    <p>Points: <span id="points">0</span></p>
+    <p>Badges: <span id="badges">None</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
